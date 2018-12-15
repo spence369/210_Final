@@ -1,0 +1,200 @@
+html {
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient( to right top, blue, white);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body {
+	font: 62.5% Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+h1{
+	font-size: 20pt;
+	color: blue;
+	text-align:center;
+}
+
+.mainNav {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	padding-bottom: 20px;
+}
+
+.mainNav a{
+	border: 1px solid #999;
+	border-radius: .5em;
+	border-bottom: none;
+	padding-left: .5em;
+	padding-right: .5em;
+	margin-right: .8em;
+	color: #000;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #E7E7E7;
+	background-position: 0 2px;
+	display: flex;
+	flex: 1;
+	font-size: 20pt;
+}
+
+.main li {
+	display: flex;
+	/*flex-direction: center;*/
+}
+
+.mainNav ul{
+	display: flex;
+	flex-direction: row;	
+	text-align: center;
+	justify-content: center;
+}
+
+.mainNav a:hover{
+	font-weight: bold;
+	background-color: #99ffcc;
+	background-position: 3px 50%;
+}
+
+h1 {
+	font-size: 25pt;
+	text-align: center;
+}
+
+.hbrand {
+	text-align: center;
+	font-size: 15pt;
+	color: white;
+}
+
+.hindex {
+	text-align: center;
+	font-size: 22pt;
+}
+
+main h3 {
+	font-size: 20pt;
+	text-align: center;
+}
+
+.container1 {
+	float: right;
+}
+.container2 {
+	float: left;
+}
+
+.left {
+	float: left;
+	padding-left: 10px;
+}
+
+.right {
+	float: right;
+	padding-left: 10px;
+}
+
+.container3 {
+	float: right;
+	padding-right: 25%;
+	padding-bottom: 30px;
+}
+.container4 {
+	float: left;
+	padding-left: 25%;
+	padding-bottom: 30px;
+}
+
+.bleft {
+	float: right;
+	padding-left: 10px;
+}
+
+.bright {
+	float: left;
+	padding-left: 10px;
+}
+
+footer {
+	margin-top: 100px;
+}
+
+.footerNav {
+	/*height: 40px;*/
+	width: 100%;
+	display: flex;
+	/*flex-direction: left;*/
+	bottom: 0;
+	margin-bottom: 0;
+	margin-top: 100px;
+	position: absolute;
+	background-color: green;
+	justify-content: space-around;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.footerNav li{
+	display: flex;
+	text-align: center;
+}
+
+.footerNav a {
+	text-decoration: none;
+	font-size: 15pt;
+	color: brown;
+}
+
+img {
+	padding-bottom: 10pt;
+}
+
+.left p{
+	font-size: 20pt;
+}
+
+.right p{
+	font-size: 20pt;
+}
+
+.catalog {
+	text-align: center;
+	font-size: 15pt;
+	color: red;
+}
+
+.catalog2 {
+	text-align: center;
+	font-size: 15pt;
+	color: white;
+}
+
+.contact {
+	padding-top: 100px;
+}
+
+.about {
+	font-size: 20pt;
+	color: white;
+	text-align: center;
+}
+
+#name {
+	margin-left: 7.5em;
+}
+
+#email {
+	margin-left: 4.4em;
+}
+
+#date {
+	margin-left: .9em;
+}
+
+#reason {
+	margin-left: 3.1em;
+}

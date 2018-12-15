@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>The Shoe Cloud - Contact</title>
+</head>
+<body onload="getDate()">
+  <header>
+	<script src = "script.js"></script>
+	<link rel = "stylesheet" type = "text/css" href = "styles.css">
+	
+	<img src="images/shoe_logo.png" alt="Shoe Logo" height="100" width="200">
+	
+	<h1>The Shoe Cloud</h1>
+  </header>
+
+  <ul class = "mainNav">
+    <li><a href="index.html" class = "homeLink">Home</a></li>
+    <li><a href="catalog.html" class = "catalogLink">Catalog</a></li>
+    <li><a href="brands.html" class = "brandsLink">Brands</a></li>
+    <li><a href="about.html" class = "aboutLink">About</a></li>
+    <li><a href="contact.html" class = "contactLink">Contact Us</a></li>
+  </ul>
+  
+  <h2> To contact us either fill out this form for an email</h2>
+  
+  <form action = "mailto:freezeray27@gmail.com" method = "post">
+		<fieldset>
+			<label for = "name"> Name </label>
+				<input id = "name" type = "text" pattern = ".{6,}" required><br>
+			<label for = "email"> Email Address </label>
+				<input id = "email" type = "text" required><br>
+			<label for = "date"> Date of contact request </label>
+				<input id = "date" type = "date" readonly required><br>
+			<label for = "reason"> Reason for return </label>
+				<input id = "reason" type = "text" maxlength = "256" required><br>
+				
+			<button type="reset" onclick="" id = "reset" value="Reset">Reset</button>
+			<button type="submit" onclick="checkForm(), validateEmail(email), sendEmail()" id = "submit" value="Submit">Submit</button>
+		</fieldset>
+	</form>
+	
+	<h2 class="contact"> Or call this number: 715-BUY-SHOES </h2>
+	
+	<footer>
+		<ul class = "footerNav">
+			<li><a href="index.html" class = "homeLink">Home</a></li>
+			<li><a href="catalog.html" class = "catalogLink">Catalog</a></li>
+			<li><a href="brands.html" class = "brandsLink">Brands</a></li>
+			<li><a href="about.html" class = "aboutLink">About</a></li>
+			<li><a href="contact.html" class = "contactLink">Contact Us</a></li>
+		</ul>
+  </footer>
+</body>
+</html>
